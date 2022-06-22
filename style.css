@@ -10,13 +10,7 @@ html {
     text-decoration: underline;
 }
 
-.bheading {
-    padding-top: 100px;
-    text-align: center;
-    font-size: 80px;
-    color: rgb(231, 233, 230);
-    text-underline-offset: 2px;
-}
+
 
 .about {
     position: relative;
