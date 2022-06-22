@@ -32,29 +32,21 @@ html {
 }
 
 .about button {
-    padding: 10px;
-    border: none;
-    outline: none;
-    background: none;
-    border: 1px solid #d0dbcb;
-    color: white;
-}
+        padding: 10px;
+        top: 50%;
+        left: 46%;
+        outline: none;
+        background: none;
+        border: 1px solid #d0dbcb;
+        color: white;
+    }
+    
 
 .about button:hover {
     background: #15bd0f;
 }
 
-.about1 {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(#000000bb, #000000bb), url("about-us.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 30vh;
-}
+
 
 ul {
     color: blue;
