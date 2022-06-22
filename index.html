@@ -8,6 +8,7 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -19,19 +20,25 @@
     <h1 id="start" class="heading"><strong>Lorem Ipsum</strong> </h1>
     <nav>
 
-        <center>
-            <a href="#start "><button class="button button1 ">Home</button></a>
-            <a href="about.html "> <button class="button button1 ">About</button></a>
-            <a href="contacts.html "> <button class="button button1 ">Contacts</button></a>
-            <a href="gallery.html "> <button class="button button1 ">Gallery</button></a>
-        </center>
-        <div class="about ">
-            <img src="banner1.webp " alt="Image ">
-            <div class="centered ">
-                <h1 class="bheading ">Greeting web devolopers<br><br><br> <strong>We are Lorum Ipsum</strong></h1>
-            </div>
-        </div>
 
+        <a href="#start "><button class="button button1 ">Home</button></a>
+        <a href="about.html "> <button class="button button1 ">About</button></a>
+        <a href="contacts.html "> <button class="button button1 ">Contacts</button></a>
+        <a href="gallery.html "> <button class="button button1 ">Gallery</button></a>
+
+        <div class="about ">
+            <img id="imgg" src="banner1.webp " alt="Image ">
+            <div class="text">Lorem ipsum associates</div>
+
+        </div>
+        <center>
+            <div class="grad">
+                <button class="button3 button4" onclick="document.getElementById('imgg').src='banner1.webp'">1</button>
+                <button class="button3 button4" onclick="document.getElementById('imgg').src='fullstack1.png'">2</button>
+                <button class="button3 button4" onclick="document.getElementById('imgg').src='fullstack2.png'">3</button>
+                <button class="button3 button4" onclick="document.getElementById('imgg').src='fullstack3.png'">4</button></div>
+
+        </center>
     </nav>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas ac nisl quis pulvinar. Curabitur orci sem, gravida id tempus vel, pretium non magna. Vestibulum sed dolor sagittis, bibendum ligula in, condimentum dui. Nam et nisi sit amet felis
