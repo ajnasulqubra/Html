@@ -82,10 +82,11 @@ img {
 }
 
 .button {
+    align-items: center;l
     background-color: rgba(223, 221, 221, 0.911);
     border: none;
     color: black;
-    padding: 18px 150px;
+    padding: 18px 120px;
     text-align: center;
     text-decoration: solid;
     display: inline-block;
